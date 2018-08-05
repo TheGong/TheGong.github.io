@@ -1,4 +1,6 @@
+<style>
 body {
+    background-color: #000000;
     margin: 60px auto;
     width: 70%;
 }
@@ -14,7 +16,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #255;
 }
 a:hover {
     text-decoration: underline;
@@ -26,7 +28,7 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #255;
 }
 footer {
     border-top: 1px solid #d5d5d5;
