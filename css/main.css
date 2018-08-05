@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
 body {
     background-colour: black;
+}
+body {
     margin: 60px auto;
     width: 70%;
 }
-</style>
-</head>
 <body>
 nav ul, footer ul {
     font-family:'Merriweather';
