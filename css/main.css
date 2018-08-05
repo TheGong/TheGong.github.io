@@ -1,8 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 body {
-    background-colour: white;
+    background-colour: black;
     margin: 60px auto;
     width: 70%;
 }
+</style>
+</head>
+<body>
 nav ul, footer ul {
     font-family:'Merriweather';
     padding: 0px;
