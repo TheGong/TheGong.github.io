@@ -1,19 +1,12 @@
 <!DOCTYPE html>
 <html>
 		<head>
+<link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
 <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
 <style>
 body {
     font-family: 'Libre Baskerville';font-size: 20px;
 	}
-</style>
-			<link rel="stylesheet" href="<$MTStaticWebPath$>themes/common/bxslider.css" type="text/css" media="screen" />
-
-<style>
-.bx-caption {
-bottom: 0;
-background: rgba(0, 0, 0, 0.55);
-}
 </style>
 </head>
 <body>
@@ -42,27 +35,6 @@ background: rgba(0, 0, 0, 0.55);
 		<p style="color: white; text-size: 200%;"</li>
 		<footer>
     		<ul>
-		<ul class="bxslider">
-<MTEntries lastn="3"> 
-<li><a href="<$MTEntryPermalink$>"><MTEntryPhoto><img src="<$MTEntryPhotoURL$>" title="<$MTEntryTitle$>" /></MTEntryPhoto></a></li>
-</MTEntries>
-</ul>
-	</body>
-			<script src="//code.jquery.com/jquery.js"></script>
-<script src="/.shared/js/jquery.bxslider.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-$('.bxslider').bxSlider({
-mode: 'fade',
-adaptiveHeight: true,
-auto: true, 
-captions: true,
-pause: 6000,
-speed: 1000, 
-pager: true, 
-controls: false, 
-autoControls: true,
-autoControlsCombine: true
-});
-}); </script>
+	<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 </html>
