@@ -7,6 +7,14 @@ body {
     font-family: 'Libre Baskerville';font-size: 20px;
 	}
 </style>
+			<link rel="stylesheet" href="<$MTStaticWebPath$>themes/common/bxslider.css" type="text/css" media="screen" />
+
+<style>
+.bx-caption {
+bottom: 0;
+background: rgba(0, 0, 0, 0.55);
+}
+</style>
 </head>
 <body>
 		<title>The Gong</title>
@@ -34,5 +42,10 @@ body {
 		<p style="color: white; text-size: 200%;"</li>
 		<footer>
     		<ul>
+		<ul class="bxslider">
+<MTEntries lastn="3"> 
+<li><a href="<$MTEntryPermalink$>"><MTEntryPhoto><img src="<$MTEntryPhotoURL$>" title="<$MTEntryTitle$>" /></MTEntryPhoto></a></li>
+</MTEntries>
+</ul>
 	</body>
 </html>
